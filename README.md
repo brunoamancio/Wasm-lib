@@ -1,6 +1,6 @@
 ## WasmLib for Rust
 
-This is a clone of IOTA Foundations Wasmlib, made on 14.03.2012. The corrent commit is bb6563a@master (https://github.com/iotaledger/wasp/commit/bb6563aa415b52ce361a1a776d6358cf6e8cd958). 
+This is a clone of IOTA Foundations Wasmlib, made on 14.03.2012. The current commit is bb6563a@master (https://github.com/iotaledger/wasp/commit/bb6563aa415b52ce361a1a776d6358cf6e8cd958). 
 
 This repository will be removed when wasmlib is publish on crates.io or is kept in its own repo.
 
