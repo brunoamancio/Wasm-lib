@@ -1,5 +1,9 @@
 ## WasmLib for Rust
 
+This is a clone of IOTA Foundations Wasmlib, made on 14.03.2012. The corrent commit is bb6563a@master. 
+
+This repository will be removed when wasmlib is publish on crates.io or is kept in its own repo.
+
 `WasmLib` allows developers to use Rust to create smart contracts for ISCP that
 compile into Wasm and can run directly on ISCP-enabled Wasp nodes and on the
 Solo environment.
