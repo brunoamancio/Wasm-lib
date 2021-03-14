@@ -34,14 +34,7 @@ impl std::ops::BitXor for ScHname {
     type Output = Self;
 
     fn bitxor(self, rhs_schname: Self) -> Self::Output {
-        let lhs: Vec<u8> = self.to_bytes();
-        let rhs: Vec<u8> = rhs_schname.to_bytes();
-        let result : Vec<u8> = lhs.iter()
-                        .zip(rhs.iter())
-                        .map(|(&x1, &x2)| x1 ^ x2)
-                        .collect();
-        
-        Self::from_bytes(&result)
+        Self(self.0 ^ rhs_schname.0)
     }
 }
 
