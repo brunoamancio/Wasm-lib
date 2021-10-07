@@ -5,7 +5,7 @@
 name = "wasmlib-modified"
 description = "Smart Contract interface library for Wasp nodes. This is a MODIFIED version. Any changes are ONLY focused on improving code readability."
 license = "Apache-2.0"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Eric Hop <eric@iota.org>"]
 edition = "2018"
 repository = "https://github.com/brunoamancio/Wasm-lib"
